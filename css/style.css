@@ -1301,9 +1301,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #errormessage {
-  color: red;
+  color: green;
   display: none;
-  border: 1px solid red;
+  border: 1px solid green;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1474,6 +1474,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-newsletter {
   margin-bottom: 30px;
+  text-align: right;
 }
 
 #footer .footer-top .footer-newsletter input[type="email"] {

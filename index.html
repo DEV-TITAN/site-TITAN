@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="utf-8">
   <title>TITAN</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
+  <meta content="Camilla Correia" name="creator">
 
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
@@ -80,7 +81,7 @@
               </div>
             </div>
           </div>
-
+<!--
           <div class="carousel-item">
             <div class="carousel-background"><img src="img/intro-carousel/6.jpg" alt=""></div>
             <div class="carousel-container">
@@ -91,7 +92,7 @@
               </div>
             </div>
           </div>
-
+-->
         </div>
 
         <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
@@ -465,7 +466,7 @@
         <div class="section-header">
           <h3>Contate-nos</h3>
           <p>SOLICITE UM ORÇAMENTO</p>
-          <p>Em 24 horas entraremos em contato com você!</p>
+          <p>Deixe uma mensagem, e nós entraremos em contato com você!</p>
         </div>
 
         <div class="row contact-info">
@@ -482,7 +483,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Telefone</h3>
-              <p><a href="https://api.whatsapp.com/send?phone=5571991605531&text=Ol%C3%A1!%20Tenho%20interesse%20no%20trabalho%20de%20voc%C3%AAs!&source=&data=" target="_blank">+55 71 9 9160-5531</a></p>
+              <p><a href="https://api.whatsapp.com/send?phone=557199978750&text=Ol%C3%A1!%20Tenho%20interesse%20no%20trabalho%20de%20voc%C3%AAs!&source=&data=" target="_blank">+55 71 9997-8750</a></p>
             </div>
           </div>
 
@@ -490,36 +491,38 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:igor@titanci.com.br">contato@titanci.com.br</a></p>
+              <p><a href="mailto:contato@titanci.com.br">contato@titanci.com.br</a></p>
             </div>
           </div>
 
         </div>
 
         <div class="form">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
-          <form action="https://formspree.io/xrgqlwlj" target="_blank" method="post" role="form" class="contactForm">
+          <form action="contactform.php" target="_blank" method="post" role="form" class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="nome" class="form-control" id="name" placeholder="Seu Nome" data-rule="minlen:4" data-msg="Digite pelo menos 4 caracteres" required/>
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" data-rule="email" data-msg="Digite um email válido" required/>
                 <div class="validation"></div>
               </div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <input type="text" class="form-control" name="assunto" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Digite pelo menos 8 caracteres do assunto" required/>
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensagem"></textarea>
+              <textarea class="form-control" name="mensagem" rows="5" data-rule="required" data-msg="Escreva algo para nós" placeholder="Mensagem" required></textarea>
               <div class="validation"></div>
             </div>
             <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
           </form>
+          <br>
+          <br>
+          <div id="sendmessage">Sua mensagem foi enviada. Obrigado!</div>
+          <div id="errormessage">Sua mensagem foi enviada. Obrigado!</div>
         </div>
 
       </div>
@@ -557,7 +560,7 @@
               Politécnica UFBA - 8° andar - Sala 8.3.5<br>
               Rua Prof. Aristídes Novis, 2 - Federação, 40210-630<br>
               Salvador - BA <br>
-              <strong>Telefone:</strong> +55 71 9 9160-5531<br>
+              <strong>Telefone:</strong> +55 71 9997-8750<br>
               <strong>Email:</strong> contato@titanci.com.br<br>
             </p>
 
@@ -566,13 +569,14 @@
               <a href="https://www.facebook.com/titanufba/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
               <a href="https://www.linkedin.com/company/ufbatitan/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
               <a href="https://www.youtube.com/channel/UCgLsZjls-Aad3VZg9WejbNw/featured" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a>
-              <a href="https://api.whatsapp.com/send?phone=5571991605531&text=Ol%C3%A1!%20Tenho%20interesse%20no%20trabalho%20de%20voc%C3%AAs!&source=&data=" target="_blank" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=557199978750&text=Ol%C3%A1!%20Tenho%20interesse%20no%20trabalho%20de%20voc%C3%AAs!&source=&data=" target="_blank" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
             </div>
 
           </div>
 
           <div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>Horário de Funcionamento</h4>
+            <p>Devido aos recentes acontecimentos, nossos time está atuando exclusivamente em home office. <br> <br> A TITAN agradece a sua compreensão.</p>
             <p>Segunda à Sexta | 14:00 às 19:00</p>
           </div>
 
@@ -605,6 +609,7 @@
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
 
