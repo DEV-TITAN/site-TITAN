@@ -1,442 +1,473 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
   <meta charset="utf-8">
-  <title>TITAN</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+
+  <title>TITAN</title>
+  <meta content="Empresa Júnior de Engenharia da Computação da UFBA, atuamos há 2 anos
+  no mercado de computação prestando serviços de excelência, prezando pela qualidade dos
+  projetos e satisfação de nossos clientes." name="description">
+  <meta
+    content="Computação, desenvolvimento web, mobile, Softwares, empresa júnior, brasil júnior, tecnologia, site, data science"
+    name="keywords">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="Programação, website,desenvolvimento de websites, flutter ,ui/ux, ui,ux, serviços, empresa júnior de computação, empresa junior, empresa junior TI,
+  desenvolvimento de apps, desenvolvimento mobile , desenvolvimento flutter , serviços personalizados, titan, MEJ, UniJr, UFBA, web, mobile, web-crawler , data science, serviços data science,
+  titan ufba, titan jr , titan ci , empresa titan,  " />
+
+
   <meta content="Camilla Correia" name="creator">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
-    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <!-- WhatsApp -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-    TITAN
-  ======================================================= -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173569153-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-173569153-1');
+  </script>
+
 </head>
 
 <body>
 
-  <!--==========================
-    Header
-  ============================-->
-  <header id="header">
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
     <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-xl-10 d-flex align-items-center">
+          <h1 class="logo mr-auto"><a href="index.html">TITAN<span>.</span></a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt=""></a>-->
 
-      <div id="logo" class="pull-left">
-        <a href="#intro"><img src="img/logo.png" alt="" title=""></a>
-      </div>
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li class="active"><a href="#header">Home</a></li>
+              <li><a href="#about">Sobre nós</a></li>
+              <li><a href="#services">Serviços</a></li>
+              <li><a href="#portfolio">Portfólio</a></li>
+              <!-- <li><a href="blog.html">Blog</a></li> -->
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+          </nav><!-- .nav-menu -->
 
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">Sobre Nós</a></li>
-          <li><a href="#services">Serviços</a></li>
-          <li><a href="#call-to-action">Processo seletivo</a></li>
-          <li><a href="#clients">Parceiros e Clientes</a></li>
-          <li><a href="#contact">Contato</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- #header -->
-
-  <!--==========================
-    Intro Section
-  ============================-->
-  <section id="intro">
-    <div class="intro-container">
-      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
-
-        <ol class="carousel-indicators"></ol>
-
-        <div class="carousel-inner" role="listbox">
-
-          <div class="carousel-item active">
-            <div class="carousel-background"><img src="img/intro-carousel/7.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <img src="img/Logo_com_nome.png" alt="">
-                <br>
-                <br>
-                <h2>SERVIÇOS EM COMPUTAÇÃO PERSONALIZADOS PARA O SEU NEGÓCIO</h2>
-                <a href="#about" class="btn-get-started scrollto">Saiba mais</a>
-              </div>
-            </div>
-          </div>
-          <!--
-          <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/6.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2>Processo Seletivo 2020</h2>
-                <p>Se você é estudante dos cursos de Engenharia da Computação, Engenharia Elétrica, Engenharia de Automação e Controle, Ciência da Computação, Sistemas da Informação, Licenciatura em Computação ou BI em Ciência & Tecnologia da <b>UFBA</b> se inscreva no nosso <b>PROCESSO SELETIVO</b> e faça parte da <b>MAIOR</b> iniciativa de liderança jovem mundial no ensino superior!</p>
-                <a href="#call-to-action" class="btn-get-started scrollto">Saiba mais</a>
-              </div>
-            </div>
-          </div>
--->
+          <a href="#" class="get-started-btn scrollto">Área do cliente</a>
         </div>
+      </div>
 
-        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
+    </div>
+  </header><!-- End Header -->
 
-        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
 
+    <div class="container-fluid" data-aos="zoom-out" data-aos-delay="100">
+      <div class="row justify-content-center">
+        <div class="col-xl-10">
+          <div class="row">
+            <div class="col-lg-12">
+              <img class="logoHero" src="assets/img/logo-com-nome.png" alt="">
+              <h2>Transformamos sonhos em soluções</h2>
+              <div class="text">
+                <p id="log"></p>
+              </div>
+              <a href="https://api.whatsapp.com/send?phone=5571981870040&text=Ol%C3%A1!%20Tenho%20interesse%20no%20trabalho%20de%20voc%C3%AAs!&source=&data="
+                target="_blank" class="btn-get-started scrollto">Executar sonho</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section><!-- #intro -->
+
+  </section><!-- End Hero -->
 
   <main id="main">
 
-    <!--==========================
-      About Us Section
-    ============================-->
-    <section id="about">
-      <div class="container">
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
 
-        <header class="section-header">
-          <h3>Sobre nós</h3>
-          <p>Empresa Júnior de <b>Engenharia da Computação</b>, localizada na Escola Politécnica da <b>UFBA</b>,
-            uma das escolas de engenharia mais reconhecidas no Brasil.
-            Visamos consolidar, na prática, o conhecimento adquirido em sala de aula.
-            Nosso crescimento, além de impactar diretamente no crescimento e evolução dos membros,
-            agrega valor ao projeto dos clientes e estimula o cenário de empreendedorismo brasileiro.
-            Dessa maneira, usufruindo dos recursos adequados, conectamos conhecimentos, estratégia,
-            informação e dados para inovar, desenvolver e otimizar soluções.</p>
-        </header>
+        <div class="row">
 
-        <div class="row about-cols">
-
-          <div class="col-md-4 wow fadeInUp">
-            <div class="about-col">
-              <div class="img">
-                <img src="img/about-mission.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-checkmark-round"></i></div>
-              </div>
-              <h2 class="title">Nossa missão</h2>
-              <p>
-                Conduzimos e transformamos sonhos em soluções tangíveis, de maneira acessível e eficiente.
-              </p>
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="icofont-simple-smile"></i>
+              <span data-toggle="counter-up">875</span>
+              <p>"SIM" foi dito</p>
             </div>
           </div>
 
-          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="about-col">
-              <div class="img">
-                <img src="img/about-plan.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-document-text"></i></div>
-              </div>
-              <h2 class="title">Nosso valor</h2>
-              <p>
-                SIM. <br>Espirito de StartUp <br>
-                Ser um elo entre os estudantes de Engenharia de Computação.
-              </p>
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="icofont-code-alt"></i>
+              <span data-toggle="counter-up">5.456</span>
+              <p>Linhas de código</p>
             </div>
           </div>
 
-          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="about-col">
-              <div class="img">
-                <img src="img/about-vision.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-eye"></i></div>
-              </div>
-              <h2 class="title">Nossa visão</h2>
-              <p>
-                Ser um farol para o curso de Engenharia de Computação, guiando e desenvolvendo alunos melhor preparados
-                para o futuro.
-              </p>
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="icofont-coffee-mug"></i>
+              <span data-toggle="counter-up">345</span>
+              <p>Copos de café</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="icofont-ui-game"></i>
+              <span data-toggle="counter-up">140</span>
+              <p>Partidas de LOL</p>
             </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- #about -->
+    </section><!-- End Counts Section -->
 
-    <!--==========================
-      Services Section
-    ============================-->
-    <section id="services">
-      <div class="container">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+      <div class="container" data-aos="fade-up">
 
-        <header class="section-header wow fadeInUp">
-          <h3>Serviços</h3>
+        <div class="row no-gutters">
+          <div class="content col-xl-5 d-flex align-items-stretch">
+            <div class="content">
+              <h3>Empresa Júnior de Engenharia da Computação da UFBA</h3>
+              <p>
+                Localizada na Escola Politécnica da UFBA, uma das escolas de engenharia mais reconhecidas no Brasil.
+                <br>
+                <br>
+                Visamos consolidar, na prática, o conhecimento adquirido em sala de aula. Nosso crescimento, além
+                de impactar diretamente no crescimento e evolução dos membros, agrega valor ao projeto dos clientes
+                e estimula o cenário de empreendedorismo brasileiro.
+                <br>
+                <br>
+                Desta forma, reconhecemos e conectamos a nobreza do conhecimento, a confiabilidade da estratégia e a celeridade da informação, para otimizar soluções.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-7 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="icofont-bullseye"></i>
+                  <h4>Nossa missão</h4>
+                  <p>Conduzimos e transformamos sonhos em soluções tangíveis, de maneira acessível e eficiente.</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="icofont-check-alt"></i>
+                  <h4>Nosso valor</h4>
+                  <p>Ser um farol para os cursos de Computação, guiando e desenvolvendo estudantes melhor preparados para o
+                    futuro.</p>
+                </div>
+                <div class="col-md-12 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="icofont-eye"></i>
+                  <h4>Nossa visão</h4>
+                  <p>SIM.
+                    <br>
+                    Espírito de StartUp.
+                    <br>
+                    Ser um elo entre os estudantes de Engenharia de Computação.
+                  </p>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Tabs Section ======= -->
+    <section id="tabs" class="tabs">
+      <div class="container" data-aos="fade-up">
+
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-toggle="tab" href="#tab-1">
+              <i class="icofont-company"></i>
+              <h4 class="d-none d-lg-block">O que é uma Empresa Júnior?</h4>
+            </a>
+          </li>
+
+          <li class="nav-item col-3">
+            <a class="nav-link" data-toggle="tab" href="#tab-2">
+              <i class="icofont-users"></i>
+              <h4 class="d-none d-lg-block">Processo Seletivo</h4>
+            </a>
+          </li>
+
+          <li class="nav-item col-3">
+            <a class="nav-link" data-toggle="tab" href="#tab-3">
+              <i class="icofont-favourite"></i>
+              <h4 class="d-none d-lg-block">Por que a TITAN?</h4>
+            </a>
+          </li>
+
+          <li class="nav-item col-3">
+            <a class="nav-link" data-toggle="tab" href="#tab-4">
+              <i class="icofont-briefcase"></i>
+              <h4 class="d-none d-lg-block">Processo Comercial</h4>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <h3>É uma associação civil sem fins lucrativos, integrada e gerida por estudantes
+                  de um curso superior, cujos principais objetivos são:
+                </h3>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Fomentar o aprendizado prático do universitário em sua área
+                    de atuação;</li>
+                  <li><i class="ri-check-double-line"></i> Aproximar o mercado de trabalho das academias e os próprios
+                    acadêmicos;
+                  </li>
+                  <li><i class="ri-check-double-line"></i> Elaborar projetos na área de formação dos estudantes.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/tabs-1.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Faça parte da TITAN e ajude-nos a construir a nossa história!</h3>
+                <p class="font-italic">
+                  Nosso objetivo é garantir, durante dois meses, a possibilidade de crescimento e capacitação pessoal,
+                  adicionando à experiência acadêmica a real imersão empresarial por meio da participação em projetos
+                  reais de tecnologia.
+                </p>
+                <p>
+                  Não há pré-requisito, e pode participar qualquer estudante da Universidade Federal da Bahia, desde que seja de um dos seguintes cursos:
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Engenharia da Computação;</li>
+                  <li><i class="ri-check-double-line"></i> Engenharia Elétrica;</li>
+                  <li><i class="ri-check-double-line"></i> Engenharia de Controle e Automação;</li>
+                  <li><i class="ri-check-double-line"></i> Ciência da Computação;</li>
+                  <li><i class="ri-check-double-line"></i> Sistemas da Informação;</li>
+                  <li><i class="ri-check-double-line"></i> Licenciatura em Computação;</li>
+                  <li><i class="ri-check-double-line"></i> BI em Ciência e Tecnologia.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/team/team.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Há 2 anos, no mundo da computação,
+                  atuamos prestando serviços de excelência, prezando pela qualidade dos
+                  projetos e pela satisfação de nossos parceiros e colaboradores.
+                </h3>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Preço acessível</li>
+                  <p class="font-italic">
+                    A TITAN é uma empresa sem fins lucrativos, com soluções e projetos com custo abaixo do mercado, com o objetivo de
+                   incentivar o empreendedorismo e a inovação.
+                  </p>
+                  <li><i class="ri-check-double-line"></i> Inovação</li>
+                  <p class="font-italic">
+                    Entregamos resultados que impactam positivamente o negócio de nossos clientes e trazem benefícios
+                    inovadores que geram mais competitividade para suas empresas.
+                </ul>
+
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/tabs-3.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Contato Inicial</li>
+                  <p class="font-italic">
+                    Primeiro contato do cliente com a empresa, que pode ser feita por meio do
+                    cadastro ou ligação direta na sede da empresa.
+                  </p>
+
+                  <li><i class="ri-check-double-line"></i> Diagnóstico Gratuito</li>
+                  <p class="font-italic">
+                    Reunião de análise de viabilidade do projeto, na qual há o aprofundamento
+                    do conhecimento das necessidades do cliente.
+                  </p>
+
+                  <li><i class="ri-check-double-line"></i> Proposta</li>
+                  <p class="font-italic">
+                    Após a discussão sobre a viabilidade do projeto, a TITAN propõe soluções para os problemas
+                    diagnosticados.
+                  </p>
+
+                  <li><i class="ri-check-double-line"></i> Contrato</li>
+                  <p class="font-italic">
+                    Etapa em que se consolida o negócio entre a empresa e o cliente.
+                  </p>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/tabs-4.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Tab Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Serviços</h2>
           <p>NÃO VENDEMOS SERVIÇOS. FORNECEMOS SOLUÇÕES!</p>
-        </header>
+        </div>
 
         <div class="row">
-
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-android-globe"></i></div>
-            <h4 class="title">Website</h4>
-            <p class="description">Um website profissional é essencial para qualquer negócio que entende a importância
-              de se posicionar on-line. Nossos websites são totalmente responsivos e se adequam a qualquer dispositivo.
-            </p>
+          <div class="col-md-6">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <i class="icofont-earth"></i>
+              <h4>Desenvolvimento Web</h4>
+              <p>Um website profissional é essencial para qualquer negócio que entende a
+                importância de se posicionar on-line, Nossos websites são totalmente responsivos.
+                Além disso, desenvolvemos soluções web com níveis de complexidade superiores.</p>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-android-phone-portrait"></i></div>
-            <h4 class="title">Aplicativos Mobile</h4>
-            <p class="description">Os Apps são a forma mais rápida e prática de disponibilização de dados para os
-              usuários, são para clientes que desejam consolidar seu modelo de negócio. Desenvolvidos para IOS e
-              Android.</p>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <i class="icofont-smart-phone"></i>
+              <h4><a href="#">Desenvolvimento Mobile</a></h4>
+              <p>Os Apps são a forma mais rápida e prática de disponibilização de dados para
+                os usuários. Esta solução é direcionada a clientes que desejam consolidar seu modelo de negócio.
+                Desenvolvemos para iOS e Android.</p>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-bug"></i></div>
-            <h4 class="title">Web-crawlers</h4>
-            <p class="description">Softwares responsáveis por captar, de outros sistemas, informações que se encaixam no
-              tópico de interesse procurado e disponibilizá-las em único website, no qual se encontra o usuário.</p>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <i class="icofont-bug"></i>
+              <h4><a href="#">Web-crawlers</a></h4>
+              <p>Softwares responsáveis por captar informações que se encaixam
+                no tópico de interesse procurado.
+              </p>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-cloud"></i></div>
-            <h4 class="title">Data Science</h4>
-            <p class="description">Realizamos uma grande coleta de dados e depois transformamos os dados em um formato
-              mais prático.</p>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <i class="icofont-cloud"></i>
+              <h4><a href="#">Data Science</a></h4>
+              <p>Grande coleta de dados e na qual transformamos os dados em um formato mais prático.</p>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-settings"></i></div>
-            <h4 class="title">Manutenção</h4>
-            <p class="description">Manutenção para os computadores da sua empresa, orçamentagem e instalação de novas
-              máquinas, além de reparo.</p>
+          <div class="col-md-12 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="500">
+              <i class="icofont-computer"></i>
+              <h4><a href="#">Soluções Personalizadas</a></h4>
+              <p>Desenvolvimento de sistemas integrados de gerenciamento e controle, que visam a otimização do tarefa desejada.
+              </p>
+            </div>
           </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-code"></i></div>
-            <h4 class="title">Soluções Personalizadas</h4>
-            <p class="description">Desenvolvimento de sistemas integrados de gerenciamento que visem a realização do
-              trabalho desejado.</p>
-          </div>
-
         </div>
 
       </div>
-    </section><!-- #services -->
+    </section><!-- End Services Section -->
 
-    <!--==========================
-      Call To Action Section
-    ============================-->
-    <section id="call-to-action" class="wow fadeIn">
-      <div class="container text-center">
-        <h3>Processo Seletivo 2021.1</h3>
-        <a class="cta-btn" href="https://www.instagram.com/titan_ufba/" target="_blank">EM BREVE</a>
-      </div>
-    </section><!-- #call-to-action -->
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
 
-    <!--==========================
-      Facts Section
+        <div class="section-title">
+          <h2>Portfólio</h2>
+        </div>
 
-    <section id="facts"  class="wow fadeIn">
-      <div class="container">
-
-        <header class="section-header">
-          <h3>Em números</h3>
-        </header>
-
-        <div class="row counters">
-
-  				<div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">20</span>
-            <p>Clientes</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">12</span>
-            <p>Projetos</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">5,572,987</span>
-            <p>Linhas de Código</p>
-  				</div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">18</span>
-            <p>Equipe</p>
-  				</div>
-
-  			</div>
-
-      </div>
-    </section>
-    #facts -->
-
-    <!--==========================
-      Portfolio Section
-
-    <section id="portfolio"  class="section-bg" >
-      <div class="container">
-
-        <header class="section-header">
-          <h3 class="section-title">Nosso Portfólio</h3>
-        </header>
-
-        <div class="row">
-          <div class="col-lg-12">
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">Todos</li>
-              <li data-filter=".filter-app">App</li>
               <li data-filter=".filter-web">Web</li>
-              <li data-filter=".filter-card">Personalizados</li>
+              <li data-filter=".filter-app">Mobile</li>
+              <li data-filter=".filter-outros">Outros</li>
             </ul>
           </div>
         </div>
 
-        <div class="row portfolio-container">
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
+              <img src="assets/img/portfolio/portfolio-1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">App 1</a></h4>
-                <p>App</p>
+                <h4>Página de Redirecionamento</h4>
+                <p>Produtora Jr.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-1.png" data-gall="portfolioGallery" class="venobox"
+                    title="App 1"><i class="bx bx-plus"></i></a>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
+              <img src="assets/img/portfolio/portfolio-2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Web 3</a></h4>
-                <p>Web</p>
+                <h4>Plataforma de Correção de Redações</h4>
+                <p>Singular</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.png" data-gall="portfolioGallery" class="venobox"
+                    title="Web 3"><i class="bx bx-plus"></i></a>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
+              <img src="assets/img/portfolio/portfolio-3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">App 2</a></h4>
-                <p>App</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Card 2</a></h4>
-                <p>Card</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Web 2</a></h4>
-                <p>Web</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">App 3</a></h4>
-                <p>App</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Card 1</a></h4>
-                <p>Card</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Card 3</a></h4>
-                <p>Card</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Web 1</a></h4>
-                <p>Web</p>
+                <h4>Aplicativo de Gerenciamento</h4>
+                <p>Rexroth</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-3.png" data-gall="portfolioGallery" class="venobox"
+                    title="App 2"><i class="bx bx-plus"></i></a>
+                </div>
               </div>
             </div>
           </div>
@@ -444,178 +475,507 @@
         </div>
 
       </div>
-    </section>
-    #portfolio -->
+    </section><!-- End Portfolio Section -->
 
-    <!--==========================
-      Clients Section
-    ============================-->
-    <section id="clients" class="wow fadeInUp">
-      <div class="container">
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
 
-        <header class="section-header">
-          <h3>Parceiros e Clientes</h3>
-        </header>
+        <div class="section-title">
+          <h2>Perguntas Frequentes</h2>
+        </div>
 
-        <div class="owl-carousel clients-carousel">
-          <img src="img/clients/client-1.png" alt="">
-          <img src="img/clients/client-2.png" alt="">
-          <img src="img/clients/client-3.png" alt="">
-          <img src="img/clients/client-4.png" alt="">
-          <img src="img/clients/client-5.png" alt="">
-          <img src="img/clients/client-6.png" alt="">
-          <img src="img/clients/client-7.png" alt="">
-          <img src="img/clients/client-8.png" alt="">
-          <img src="img/clients/client-9.png" alt="">
+        <ul class="faq-list" data-aos="fade-up">
+
+          <li>
+            <a data-toggle="collapse" class="collapsed" href="#faq1">Como faço para ser membro da TITAN?<i
+                class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq1" class="collapse" data-parent=".faq-list">
+              <p>
+                Para se inscrever em nosso processo seletivo, você deve estar matriculado em algum destes cursos, na UFBA:
+                Engenharia da Computação, Engenharia Elétrica, Engenharia de Controle e Automação de Processos, Ciência da
+                Computação, Sistema da Informação, Licenciatura em Computação ou Bacharelado Interdisciplinar em Ciência
+                e Tecnologia.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq2" class="collapsed">Quando abrirá o próximo Processo Seletivo?
+              <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq2" class="collapse" data-parent=".faq-list">
+              <p>
+                Abrimos um processo seletivo, usualmente no início, a cada semestre.
+                Fique ligado(a) em nossas redes sociais,
+                são por elas que divulgamos as datas do Prosel!
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq3" class="collapsed">Quais diretorias possui a TITAN? <i
+                class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq3" class="collapse" data-parent=".faq-list">
+              <p>
+                Atualmente a TITAN é composta por 7 (sete) diretorias. São elas:
+                Diretoria de Desenvolvimento,
+                Diretoria de Qualidade, Diretoria de Relações Externas,
+                Diretoria de Vendas, Diretoria de Marketing, Diretoria
+                de Gestão de Pessoas & Diretoria Administrativo Financeira.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq4" class="collapsed">Os projetos são desenvolvidos pelos próprios
+              estudantes? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq4" class="collapse" data-parent=".faq-list">
+              <p>
+                SIM. Todo o processo de diagnóstico,
+                proposta, documentação e desenvolvimento
+                são realizados pelos próprios
+                integrantes da TITAN.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>O que estão dizendo da TITAN</h2>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="owl-carousel testimonials-carousel">
+
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-default.png" class="testimonial-img" alt="">
+                  <h3>Rafael Seixas</h3>
+                  <h4>Parceiro - Empresa TradeOff</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    O serviço oferecido e prestado foi de muito valor para o nosso negócio. Eu não conhecia essa
+                    possibilidade de contratar serviços de tecnologia através de uma empresa júnior.
+                    Para empresas pequenas se apresentou em uma excelente possibilidade em termos de custo x benefício.
+                    Recomendaria para outras empresas.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Luiz Pedro</h3>
+                  <h4>Presidente Fundador</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    A TITAN é mais do que uma empresa competente, coesa e em plena evolução.
+                    É um espaço onde alunos se desenvolvem, descobrem novos caminhos e experimentam o mercado de
+                    trabalho.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-default.png" class="testimonial-img" alt="">
+                  <h3>Júlia Andrade</h3>
+                  <h4>Parceira</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Sou cliente da TITAN há um ano. E estou muito satisfeita com o serviço prestado na coleta
+                    e tratamento de dados para minha pesquisa. Os Titans são muito responsáveis, comprometidos
+                    e são muito abertos ao diálogo. E agradeço muito pela qualidade do serviço prestado.
+                    Recomendo super! Gratidão, TITAN!
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Douglas Wiliam</h3>
+                  <h4>Ex Diretor de Desenvolvimento</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    A TITAN foi um mindstorm para minha vida no quesito de saber o quão longe posso
+                    chegar quando me comprometo com algo e estou do lado de uma galera proativa e focada em voar alto.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <h3>Lea Lisboa</h3>
+                  <h4>Conselheira Admnistrativa</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    A TITAN foi sem dúvida uma das melhores coisas na minha vida. Me trouxe conhecimento,
+                    não só técnico, mas de liderança e empreendedorismo. Eu fico muito feliz de podemos
+                    impactar a vida de pessoas com a tecnologia.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
 
       </div>
-    </section><!-- #clients -->
+    </section><!-- End Testimonials Section -->
 
-    <!--==========================
-      Contact Section
-    ============================-->
-    <section id="contact" class="section-bg wow fadeInUp">
-      <div class="container">
+    <!-- ======= Pricing Section ======= -->
+    <!-- <section id="pricing" class="pricing section-bg">
+      <div class="container" data-aos="fade-up">
 
-        <div class="section-header">
-          <h3>Contate-nos</h3>
-          <p>SOLICITE UM ORÇAMENTO</p>
-          <p>Deixe uma mensagem, e nós entraremos em contato com você!</p>
+        <div class="section-title">
+          <h2>Pricing</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
         </div>
 
-        <div class="row contact-info">
+        <div class="row">
 
-          <div class="col-md-4">
-            <div class="contact-address">
-              <i class="ion-ios-location-outline"></i>
-              <h3>Endereço</h3>
-              <address>Escola Politécnica da UFBA <br>8° andar - Sala 8.03.05<br> Rua Prof. Aristídes Novis, 2 -
-                Federação, <br>40210-630 Salvador - BA</address>
-
+          <div class="col-lg-4 col-md-6">
+            <div class="box" data-aos="fade-up" data-aos-delay="100">
+              <h3>Free</h3>
+              <h4><sup>$</sup>0<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="contact-phone">
-              <i class="ion-ios-telephone-outline"></i>
-              <h3>Telefone</h3>
-              <p><a
-                  href="https://api.whatsapp.com/send?phone=5571981870040&text=Ol%C3%A1!%20Tenho%20interesse%20no%20trabalho%20de%20voc%C3%AAs!&source=&data="
-                  target="_blank">+55 71 9 8187-0040</a></p>
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="box featured" data-aos="fade-up" data-aos-delay="200">
+              <h3>Business</h3>
+              <h4><sup>$</sup>19<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="contact-email">
-              <i class="ion-ios-email-outline"></i>
-              <h3>Email</h3>
-              <p><a href="mailto:vendas@titanci.com.br">vendas@titanci.com.br</a></p>
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+              <h3>Developer</h3>
+              <h4><sup>$</sup>29<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
             </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- #contact -->
+    </section>End Pricing Section -->
 
-  </main>
 
-  <!--==========================
-    Footer
-  ============================-->
+    <!-- ======= Team Section ======= -->
+    <!-- <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>End Team Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="section-title">
+        <h2>Clientes e Parceiros</h2>
+      </div>
+
+      <div class="container-fluid" data-aos="zoom-in">
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <div class="owl-carousel clients-carousel">
+              <img src="assets/img/clients/client-1.png" alt="">
+              <img src="assets/img/clients/client-2.png" alt="">
+              <img src="assets/img/clients/client-3.png" alt="">
+              <img src="assets/img/clients/client-4.png" alt="">
+              <img src="assets/img/clients/client-5.png" alt="">
+              <img src="assets/img/clients/client-6.png" alt="">
+              <img src="assets/img/clients/client-7.png" alt="">
+              <img src="assets/img/clients/client-8.png" alt="">
+              <img src="assets/img/clients/client-9.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Como nos encontrar</h2>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <i class="bx bx-map"></i>
+                  <h3>Localização</h3>
+                  <p>Escola Politécnica da UFBA, 8° andar - Sala 8.03.05
+                    <br>
+                    Rua Prof. Aristídes Novis, 2 - Federação,
+                    <br>
+                    40.210-630, Salvador - BA
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>E-mail</h3>
+                  <p>vendas@titanci.com.br</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Telefone</h3>
+                  <p>+55 71 9 8187-0040</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <iframe class="mb-4 mb-lg-0"
+              src="https://maps.google.com/maps?q=escola%20polit%C3%A9cnica%20da%20ufba&t=&z=17&ie=UTF8&iwloc=&output=embed"
+              frameborder="0" style="border:0; width: 100%; height: 410px;" allowfullscreen></iframe>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
   <footer id="footer">
+
     <div class="footer-top">
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>TITAN</h3>
-            <p>Atuamos há 2 anos no mercado de computação prestando serviços de excelência, prezando pela qualidade dos
-              projetos e satisfação de nossos clientes.</p>
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>TITAN<span>.</span></h3>
+            <p>
+              Escola Politécnica da UFBA<br>
+              Salvador-BA<br>
+              Brasil <br><br>
+              <strong>Telefone:</strong> +55 71 9 8187-0040<br>
+              <strong>E-mail:</strong> vendas@titanci.com.br<br>
+            </p>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-2 col-md-6 footer-links">
             <h4>Links Úteis</h4>
             <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#home">Home</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#about">Sobre nós</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#services">Serviços</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#call-to-action">Processo Seletivo</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#contact">Contato</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">Sobre nós</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Serviços</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Portfólio</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contato</h4>
-            <p>
-              Politécnica UFBA - 8° andar - Sala 8.3.5<br>
-              Rua Prof. Aristídes Novis, 2 - Federação, 40210-630<br>
-              Salvador - BA <br>
-              <strong>Telefone:</strong> +55 71 9 9691-0205<br>
-              <strong>Email:</strong> contato@titanci.com.br<br>
-            </p>
-
-            <div class="social-links">
-              <a href="https://www.instagram.com/titan_ufba/" target="_blank" class="instagram"><i
-                  class="fa fa-instagram"></i></a>
-              <a href="https://www.facebook.com/titanufba/" target="_blank" class="facebook"><i
-                  class="fa fa-facebook"></i></a>
-              <a href="https://www.linkedin.com/company/ufbatitan/" target="_blank" class="linkedin"><i
-                  class="fa fa-linkedin"></i></a>
-              <a href="https://www.youtube.com/channel/UCgLsZjls-Aad3VZg9WejbNw/featured" target="_blank"
-                class="youtube"><i class="fa fa-youtube"></i></a>
-              <a href="https://api.whatsapp.com/send?phone=5571981870040&text=Ol%C3%A1!%20Tenho%20interesse%20no%20trabalho%20de%20voc%C3%AAs!&source=&data="
-                target="_blank" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
-            </div>
-
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Por que escolher a TITAN?</h4>
+            <ul>
+              <li>O seu sonho, é o nosso sonho!</li>
+              <li>A sua realização, é a nossa realização!</li>
+              <li>O seu sucesso, é o nosso sucesso!</li>
+            </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-newsletter">
+          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Horário de Funcionamento</h4>
-            <p>Devido aos recentes acontecimentos, nosso time está atuando exclusivamente em home office. <br> <br> A
-              TITAN agradece à sua compreensão.</p>
-            <p>Segunda à Sexta | 09:00 às 18:00</p>
+            <ul>
+              <li>Devido à pandemia do COVID-19, nosso time está atuando exclusivamente em home office.</li>
+              <li>A TITAN agradece à sua compreensão.</li>
+              <li>Segunda à Sexta | 09:00 às 18:00</li>
+            </ul>
           </div>
 
         </div>
       </div>
     </div>
+    <div class="container d-md-flex py-4">
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong> 2021 </strong> TITAN | Todos os direitos reservados.
+      <div class="mr-md-auto text-center text-md-left">
+        <div class="copyright">
+          &copy; Copyright 2021 <strong><span>TITAN</span></strong> | Todos os direitos reservados.
+        </div>
+        <div class="credits">
+          Desenvolvido por <a href="https://titanci.com.br/">TITAN</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="https://www.instagram.com/titan_ufba/" target="_blank" class="instagram"><i
+            class="bx bxl-instagram"></i></a>
+        <a href="https://www.facebook.com/titanufba/" target="_blank" class="facebook"><i
+            class="bx bxl-facebook"></i></a>
+        <a href="https://www.linkedin.com/company/ufbatitan/" target="_blank" class="linkedin"><i
+            class="bx bxl-linkedin"></i></a>
+        <a href="https://www.youtube.com/channel/UCgLsZjls-Aad3VZg9WejbNw/featured" target="_blank" class="youtube"><i
+            class="bx bxl-youtube"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=5571981870040&text=Ol%C3%A1!%20Tenho%20interesse%20no%20trabalho%20de%20voc%C3%AAs!&source=&data="
+          target="_blank" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+        <a href="https://www.behance.net/titanciufba"
+          target="_blank" class="behance"><i class="bx bxl-behance"></i></a>
       </div>
     </div>
-  </footer><!-- #footer -->
+  </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
   <a href="https://api.whatsapp.com/send?phone=5571981870040&text=Ol%C3%A1!%20Tenho%20interesse%20no%20trabalho%20de%20voc%C3%AAs!&source=&data="
-    style="position:fixed;width:60px;height:60px;bottom:10px;right:70px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+    style="position:fixed;width:60px;height:60px;bottom:10px;right:15px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
   z-index:1000;" target="_blank">
     <i style="margin-top:16px" class="fa fa-whatsapp"></i>
   </a>
-  <!-- Uncomment below i you want to use a preloader -->
-  <!-- <div id="preloader"></div> -->
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
