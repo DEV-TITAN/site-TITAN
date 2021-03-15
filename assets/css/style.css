@@ -848,6 +848,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  
 }
 
 .portfolio #portfolio-flters {
@@ -900,6 +901,7 @@ section {
   z-index: 2;
   opacity: 0;
 }
+ 
 
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
