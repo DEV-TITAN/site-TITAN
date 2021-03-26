@@ -449,7 +449,10 @@ section {
   position: relative;
 }
 
-
+#ux #uxIMG {
+  color: #F2A900;
+  margin-bottom: 25px;
+}
 .my-float{
   margin-top:16px;
 }
@@ -1496,7 +1499,7 @@ section {
   padding: 0 0 0 0;
 }
 
-@media (max-width: 768px) {
+@media (width: 768px) {
   .portfolio-details .portfolio-description h2 {
     width: 100%;
   }
@@ -1504,6 +1507,28 @@ section {
     position: static;
     margin-top: 30px;
   }
+  
+  section #devMobile {
+    position: relative;
+    height: 374px;
+  }
+
+  section #solucoes {
+    position: relative;
+    height: 230px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width:3900px) {
+  #devMobile {
+    position: relative;
+    height: 232px;
+  }
+  #ux {
+    position: relative;
+    height: 185px;
+  }
+
 }
 
 .blog {
