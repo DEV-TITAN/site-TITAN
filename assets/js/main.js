@@ -263,4 +263,8 @@ rodape(textos);
     aos_init();
   });
 
+
+  // POP-UPS
+  
+
 })(jQuery);

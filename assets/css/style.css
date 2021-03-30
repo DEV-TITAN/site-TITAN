@@ -419,6 +419,11 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
   border-color: #fff;
 }
+#hero .btn-get-started {
+  -webkit--moz
+}
+
+
 
 @media (max-width: 768px) {
   #hero {
@@ -2215,4 +2220,10 @@ section {
   background: var(--primary);
   color: #fff;
   text-decoration: none;
+}
+
+
+.modal-container {
+  position: relative;
+  top: 450px;
 }
