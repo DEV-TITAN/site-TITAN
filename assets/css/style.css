@@ -32,6 +32,8 @@ h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -414,7 +416,7 @@ h6 {
   text-transform: uppercase;
 }
 
-#hero .btn-get-started {
+#hero .btn-get-started , .btn-prosel {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -429,9 +431,14 @@ h6 {
   border: 2px solid var(--primary);
 }
 
-#hero .btn-get-started:hover {
+#hero .btn-get-started:hover{
   background: transparent;
   border-color: #fff;
+}
+
+.btn-prosel:hover{
+  background: transparent;
+  border-color: #f2a900;
 }
 
 /* #hero .btn-get-started {
@@ -823,6 +830,12 @@ section {
 
 .tabs .tab-pane p:last-child {
   margin-bottom: 0;
+}
+
+.img-fluid{
+  max-width: 70%;
+  height: auto;
+
 }
 
 /*--------------------------------------------------------------
