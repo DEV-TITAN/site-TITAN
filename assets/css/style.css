@@ -32,6 +32,8 @@ h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -414,7 +416,7 @@ h6 {
   text-transform: uppercase;
 }
 
-#hero .btn-get-started {
+#hero .btn-get-started , .btn-prosel {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -429,9 +431,14 @@ h6 {
   border: 2px solid var(--primary);
 }
 
-#hero .btn-get-started:hover {
+#hero .btn-get-started:hover{
   background: transparent;
   border-color: #fff;
+}
+
+.btn-prosel:hover{
+  background: transparent;
+  border-color: #f2a900;
 }
 
 /* #hero .btn-get-started {
@@ -825,6 +832,12 @@ section {
   margin-bottom: 0;
 }
 
+.img-fluid{
+  max-width: 70%;
+  height: auto;
+
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -911,6 +924,10 @@ section {
 }
 
 .portfolio .portfolio-wrap {
+  min-height: 155px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -1197,6 +1214,17 @@ section {
   border-bottom: 1px solid #eee;
   margin-bottom: 20px;
   padding-bottom: 20px;
+}
+
+.noUnderline {
+  border-bottom: none !important;
+  list-style: none !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.noUnderline::marker {
+  list-style-type: none;
 }
 
 .faq .faq-list a {
