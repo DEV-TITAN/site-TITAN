@@ -413,6 +413,9 @@ h6 {
   margin: 10px 0 0;
   font-size: 25px;
 }
+#hero h3 span {
+  color: rgb(255, 255, 255);
+}
 
 #hero .text {
   height: 40px;
@@ -2091,8 +2094,8 @@ section {
   padding-left: 15px;
   padding-right: 15px;
 }
-.history-section p strong{
-  color:#f2a900;
+.history-section p strong {
+  color: #f2a900;
 }
 
 @media screen and(min-width: 768px) {
@@ -2111,7 +2114,7 @@ section {
   padding: 5px;
   border-radius: 100px;
 }
-.history-section .image{
+.history-section .image {
   margin-top: 30px;
   gap: 30px;
   width: 100%;
@@ -2119,7 +2122,6 @@ section {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 /* ========= Animation images START =============*/
 #slide-history {
